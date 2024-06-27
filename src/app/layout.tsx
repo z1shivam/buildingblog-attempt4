@@ -1,6 +1,6 @@
+import Footer from "@/components/global/Footer";
+import Header from "@/components/global/Header";
 import "@/styles/globals.css";
-
-import { GeistSans } from "geist/font/sans";
 
 export const metadata = {
   title: "Create T3 App",
@@ -14,8 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${GeistSans.variable}`}>
-      <body>{children}</body>
+    <html lang="en">
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
