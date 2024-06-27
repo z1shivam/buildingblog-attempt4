@@ -1,7 +1,7 @@
 # Goal: Building a blog where I can write online.
-- [ ] Initialize git for this project
-- [ ] publish it on github
-- [ ] make it deploy
+- [x] Initialize git for this project
+- [x] publish it on github
+- [x] make it deploy
 - [ ] create basic app with dummy ui
 - [ ] setup database and connect
 - [ ] create schema for blog
