@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <div className="bg-gray-800">
       <div className="container mx-auto px-6 py-20">
-        <h1 className="text-4xl font-medium text-white">Welcome to Shivam's blog</h1>
+        <h1 className="text-4xl font-medium text-white">Welcome to Shivam blog</h1>
         <p className="mt-6 text-white">
           A simple, fast, and modern web framework for building web
           applications.
